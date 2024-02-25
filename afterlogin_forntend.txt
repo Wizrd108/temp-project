@@ -1,0 +1,399 @@
+namespace temp_project.after_log
+{
+    partial class u_frame
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.header_pnl = new System.Windows.Forms.Panel();
+            this.nav_pnl = new System.Windows.Forms.Panel();
+            this.history_btn = new System.Windows.Forms.Label();
+            this.download_btn = new System.Windows.Forms.Label();
+            this.u_id = new System.Windows.Forms.Label();
+            this.Favorite_btn = new System.Windows.Forms.Label();
+            this.logout_btn = new System.Windows.Forms.Label();
+            this.setting_btn = new System.Windows.Forms.Label();
+            this.chat_btn = new System.Windows.Forms.Label();
+            this.u_name = new System.Windows.Forms.Label();
+            this.home_btn = new System.Windows.Forms.Label();
+            this.body_pnl = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.profile_pic = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.nav_bar_hide_btn = new System.Windows.Forms.PictureBox();
+            this.mini_btn = new System.Windows.Forms.PictureBox();
+            this.close_btn = new System.Windows.Forms.PictureBox();
+            this.logo_pic = new System.Windows.Forms.PictureBox();
+            this.header_pnl.SuspendLayout();
+            this.nav_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profile_pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nav_bar_hide_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo_pic)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // header_pnl
+            // 
+            this.header_pnl.BackColor = System.Drawing.Color.Turquoise;
+            this.header_pnl.Controls.Add(this.nav_bar_hide_btn);
+            this.header_pnl.Controls.Add(this.mini_btn);
+            this.header_pnl.Controls.Add(this.close_btn);
+            this.header_pnl.Controls.Add(this.logo_pic);
+            this.header_pnl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.header_pnl.ForeColor = System.Drawing.Color.Turquoise;
+            this.header_pnl.Location = new System.Drawing.Point(0, 0);
+            this.header_pnl.Name = "header_pnl";
+            this.header_pnl.Size = new System.Drawing.Size(1092, 78);
+            this.header_pnl.TabIndex = 1;
+            // 
+            // nav_pnl
+            // 
+            this.nav_pnl.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.nav_pnl.Controls.Add(this.pictureBox3);
+            this.nav_pnl.Controls.Add(this.pictureBox4);
+            this.nav_pnl.Controls.Add(this.pictureBox5);
+            this.nav_pnl.Controls.Add(this.pictureBox6);
+            this.nav_pnl.Controls.Add(this.pictureBox7);
+            this.nav_pnl.Controls.Add(this.history_btn);
+            this.nav_pnl.Controls.Add(this.download_btn);
+            this.nav_pnl.Controls.Add(this.profile_pic);
+            this.nav_pnl.Controls.Add(this.u_id);
+            this.nav_pnl.Controls.Add(this.Favorite_btn);
+            this.nav_pnl.Controls.Add(this.pictureBox1);
+            this.nav_pnl.Controls.Add(this.logout_btn);
+            this.nav_pnl.Controls.Add(this.setting_btn);
+            this.nav_pnl.Controls.Add(this.chat_btn);
+            this.nav_pnl.Controls.Add(this.u_name);
+            this.nav_pnl.Controls.Add(this.home_btn);
+            this.nav_pnl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.nav_pnl.Location = new System.Drawing.Point(0, 78);
+            this.nav_pnl.MaximumSize = new System.Drawing.Size(132, 555);
+            this.nav_pnl.Name = "nav_pnl";
+            this.nav_pnl.Size = new System.Drawing.Size(132, 555);
+            this.nav_pnl.TabIndex = 2;
+            // 
+            // history_btn
+            // 
+            this.history_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.history_btn.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.history_btn.ForeColor = System.Drawing.Color.White;
+            this.history_btn.Location = new System.Drawing.Point(49, 397);
+            this.history_btn.Name = "history_btn";
+            this.history_btn.Size = new System.Drawing.Size(88, 24);
+            this.history_btn.TabIndex = 27;
+            this.history_btn.Text = " History";
+            this.history_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.history_btn.Click += new System.EventHandler(this.history_btn_Click);
+            // 
+            // download_btn
+            // 
+            this.download_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.download_btn.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.download_btn.ForeColor = System.Drawing.Color.White;
+            this.download_btn.Location = new System.Drawing.Point(46, 346);
+            this.download_btn.Name = "download_btn";
+            this.download_btn.Size = new System.Drawing.Size(88, 24);
+            this.download_btn.TabIndex = 31;
+            this.download_btn.Text = "Download";
+            this.download_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.download_btn.Click += new System.EventHandler(this.download_btn_Click_1);
+            // 
+            // u_id
+            // 
+            this.u_id.AutoSize = true;
+            this.u_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.u_id.ForeColor = System.Drawing.Color.White;
+            this.u_id.Location = new System.Drawing.Point(12, 131);
+            this.u_id.Name = "u_id";
+            this.u_id.Size = new System.Drawing.Size(51, 20);
+            this.u_id.TabIndex = 32;
+            this.u_id.Text = "U_ID";
+            // 
+            // Favorite_btn
+            // 
+            this.Favorite_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Favorite_btn.Font = new System.Drawing.Font("Microsoft Himalaya", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Favorite_btn.ForeColor = System.Drawing.Color.White;
+            this.Favorite_btn.Location = new System.Drawing.Point(46, 243);
+            this.Favorite_btn.Name = "Favorite_btn";
+            this.Favorite_btn.Size = new System.Drawing.Size(88, 24);
+            this.Favorite_btn.TabIndex = 29;
+            this.Favorite_btn.Text = "Favorite";
+            this.Favorite_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // logout_btn
+            // 
+            this.logout_btn.AutoSize = true;
+            this.logout_btn.BackColor = System.Drawing.Color.Red;
+            this.logout_btn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.logout_btn.Font = new System.Drawing.Font("Microsoft Uighur", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_btn.ForeColor = System.Drawing.Color.White;
+            this.logout_btn.Location = new System.Drawing.Point(25, 500);
+            this.logout_btn.Name = "logout_btn";
+            this.logout_btn.Size = new System.Drawing.Size(70, 26);
+            this.logout_btn.TabIndex = 34;
+            this.logout_btn.Text = "LOG OUT";
+            // 
+            // setting_btn
+            // 
+            this.setting_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.setting_btn.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.setting_btn.ForeColor = System.Drawing.Color.White;
+            this.setting_btn.Location = new System.Drawing.Point(45, 448);
+            this.setting_btn.Name = "setting_btn";
+            this.setting_btn.Size = new System.Drawing.Size(88, 24);
+            this.setting_btn.TabIndex = 33;
+            this.setting_btn.Text = "Settings";
+            this.setting_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // chat_btn
+            // 
+            this.chat_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chat_btn.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chat_btn.ForeColor = System.Drawing.Color.White;
+            this.chat_btn.Location = new System.Drawing.Point(46, 294);
+            this.chat_btn.Name = "chat_btn";
+            this.chat_btn.Size = new System.Drawing.Size(88, 24);
+            this.chat_btn.TabIndex = 35;
+            this.chat_btn.Text = "Chat";
+            this.chat_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // u_name
+            // 
+            this.u_name.AutoSize = true;
+            this.u_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.u_name.ForeColor = System.Drawing.Color.White;
+            this.u_name.Location = new System.Drawing.Point(3, 101);
+            this.u_name.Name = "u_name";
+            this.u_name.Size = new System.Drawing.Size(117, 20);
+            this.u_name.TabIndex = 30;
+            this.u_name.Text = "USER NAME";
+            // 
+            // home_btn
+            // 
+            this.home_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.home_btn.Font = new System.Drawing.Font("Microsoft Himalaya", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_btn.ForeColor = System.Drawing.Color.White;
+            this.home_btn.Location = new System.Drawing.Point(46, 192);
+            this.home_btn.Name = "home_btn";
+            this.home_btn.Size = new System.Drawing.Size(88, 24);
+            this.home_btn.TabIndex = 36;
+            this.home_btn.Text = "Buy";
+            this.home_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.home_btn.Click += new System.EventHandler(this.home_btn_Click_1);
+            // 
+            // body_pnl
+            // 
+            this.body_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.body_pnl.Location = new System.Drawing.Point(132, 78);
+            this.body_pnl.Name = "body_pnl";
+            this.body_pnl.Size = new System.Drawing.Size(960, 555);
+            this.body_pnl.TabIndex = 3;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::temp_project.Properties.Resources.seting_removebg_preview;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 448);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 38;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::temp_project.Properties.Resources._history_89998_removebg_preview;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 397);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 39;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::temp_project.Properties.Resources.downloadd_removebg_preview;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 346);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 40;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::temp_project.Properties.Resources.chat_removebg_preview;
+            this.pictureBox6.Location = new System.Drawing.Point(3, 294);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 41;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::temp_project.Properties.Resources.favorite_removebg_preview1;
+            this.pictureBox7.Location = new System.Drawing.Point(3, 243);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 42;
+            this.pictureBox7.TabStop = false;
+            // 
+            // profile_pic
+            // 
+            this.profile_pic.Image = global::temp_project.Properties.Resources.Profile_person_removebg_preview;
+            this.profile_pic.Location = new System.Drawing.Point(10, 0);
+            this.profile_pic.Name = "profile_pic";
+            this.profile_pic.Size = new System.Drawing.Size(115, 98);
+            this.profile_pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.profile_pic.TabIndex = 28;
+            this.profile_pic.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::temp_project.Properties.Resources.buy_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 192);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 37;
+            this.pictureBox1.TabStop = false;
+            // 
+            // nav_bar_hide_btn
+            // 
+            this.nav_bar_hide_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nav_bar_hide_btn.Image = global::temp_project.Properties.Resources.Menu_Icon_Graphics_23357746_1_removebg_preview1;
+            this.nav_bar_hide_btn.Location = new System.Drawing.Point(12, 12);
+            this.nav_bar_hide_btn.Name = "nav_bar_hide_btn";
+            this.nav_bar_hide_btn.Size = new System.Drawing.Size(92, 46);
+            this.nav_bar_hide_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.nav_bar_hide_btn.TabIndex = 3;
+            this.nav_bar_hide_btn.TabStop = false;
+            this.nav_bar_hide_btn.Click += new System.EventHandler(this.nav_bar_hide_Click);
+            // 
+            // mini_btn
+            // 
+            this.mini_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.mini_btn.Image = global::temp_project.Properties.Resources.min_removebg_preview;
+            this.mini_btn.Location = new System.Drawing.Point(982, 22);
+            this.mini_btn.Name = "mini_btn";
+            this.mini_btn.Size = new System.Drawing.Size(44, 36);
+            this.mini_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mini_btn.TabIndex = 2;
+            this.mini_btn.TabStop = false;
+            // 
+            // close_btn
+            // 
+            this.close_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.close_btn.Image = global::temp_project.Properties.Resources.stop;
+            this.close_btn.Location = new System.Drawing.Point(1045, 22);
+            this.close_btn.Name = "close_btn";
+            this.close_btn.Size = new System.Drawing.Size(35, 36);
+            this.close_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.close_btn.TabIndex = 1;
+            this.close_btn.TabStop = false;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
+            // 
+            // logo_pic
+            // 
+            this.logo_pic.Image = global::temp_project.Properties.Resources.mainlogo;
+            this.logo_pic.Location = new System.Drawing.Point(317, 0);
+            this.logo_pic.Name = "logo_pic";
+            this.logo_pic.Size = new System.Drawing.Size(503, 78);
+            this.logo_pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logo_pic.TabIndex = 0;
+            this.logo_pic.TabStop = false;
+            // 
+            // u_frame
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1092, 633);
+            this.Controls.Add(this.body_pnl);
+            this.Controls.Add(this.nav_pnl);
+            this.Controls.Add(this.header_pnl);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(1092, 633);
+            this.MinimumSize = new System.Drawing.Size(960, 633);
+            this.Name = "u_frame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.header_pnl.ResumeLayout(false);
+            this.nav_pnl.ResumeLayout(false);
+            this.nav_pnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profile_pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nav_bar_hide_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo_pic)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private System.Windows.Forms.Panel header_pnl;
+        private System.Windows.Forms.PictureBox mini_btn;
+        private System.Windows.Forms.PictureBox close_btn;
+        private System.Windows.Forms.PictureBox logo_pic;
+        private System.Windows.Forms.PictureBox nav_bar_hide_btn;
+        private System.Windows.Forms.Panel nav_pnl;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label history_btn;
+        private System.Windows.Forms.Label download_btn;
+        private System.Windows.Forms.PictureBox profile_pic;
+        private System.Windows.Forms.Label u_id;
+        private System.Windows.Forms.Label Favorite_btn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label logout_btn;
+        private System.Windows.Forms.Label setting_btn;
+        private System.Windows.Forms.Label chat_btn;
+        private System.Windows.Forms.Label u_name;
+        private System.Windows.Forms.Label home_btn;
+        private System.Windows.Forms.Panel body_pnl;
+    }
+}

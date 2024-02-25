@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Drawing.Text;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using temp_project.component;
+
+
+namespace temp_project.after_log
+{
+    public partial class u_frame : Form
+    {
+        private bool click = true;
+
+        public u_frame()
+        {
+            InitializeComponent();
+        }
+
+        private void nav_bar_hide_Click(object sender, EventArgs e)
+        {
+            if(click==false)
+            {
+                nav_pnl.Width = 132;
+                this.Size=new System.Drawing.Size(1300,this.Size.Height);   
+                
+
+                click = true;  
+            }
+            else if(click==true)
+            {
+                nav_pnl.Width = 0;
+                this.Size=this.MinimumSize;
+                
+                click=false;
+            }
+            
+        }
+
+        private void close_btn_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+        }
+
+        
+
+        public void adduser(UserControl uc,Panel pnl)
+        {
+            uc.Dock = DockStyle.Fill;
+            pnl.Controls.Clear();
+            pnl.Controls.Add(uc);
+            uc.BringToFront();
+        }
+
+       
+
+        private void home_btn_Click_1(object sender, EventArgs e)
+        {
+            adduser(new homebuy(), body_pnl);
+        }
+
+        private void download_btn_Click_1(object sender, EventArgs e)
+        {
+            adduser(new Download(), body_pnl);
+        }
+
+        private void history_btn_Click(object sender, EventArgs e)
+        {
+            adduser(new History(), body_pnl);   
+        }
+    }
+}
