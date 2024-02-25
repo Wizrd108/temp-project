@@ -1,0 +1,311 @@
+namespace temp_project.component
+{
+    partial class History
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.history20 = new System.Windows.Forms.Panel();
+            this.history24 = new System.Windows.Forms.Panel();
+            this.history23 = new System.Windows.Forms.Panel();
+            this.history19 = new System.Windows.Forms.Panel();
+            this.history15 = new System.Windows.Forms.Panel();
+            this.history21 = new System.Windows.Forms.Panel();
+            this.history22 = new System.Windows.Forms.Panel();
+            this.history17 = new System.Windows.Forms.Panel();
+            this.history16 = new System.Windows.Forms.Panel();
+            this.history10 = new System.Windows.Forms.Panel();
+            this.history18 = new System.Windows.Forms.Panel();
+            this.history13 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.history12 = new System.Windows.Forms.Panel();
+            this.history11 = new System.Windows.Forms.Panel();
+            this.history14 = new System.Windows.Forms.Panel();
+            this.history9 = new System.Windows.Forms.Panel();
+            this.history8 = new System.Windows.Forms.Panel();
+            this.history7 = new System.Windows.Forms.Panel();
+            this.history6 = new System.Windows.Forms.Panel();
+            this.history5 = new System.Windows.Forms.Panel();
+            this.history1 = new System.Windows.Forms.Panel();
+            this.history3 = new System.Windows.Forms.Panel();
+            this.history4 = new System.Windows.Forms.Panel();
+            this.history2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.history13.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.history20);
+            this.panel1.Controls.Add(this.history24);
+            this.panel1.Controls.Add(this.history23);
+            this.panel1.Controls.Add(this.history19);
+            this.panel1.Controls.Add(this.history15);
+            this.panel1.Controls.Add(this.history21);
+            this.panel1.Controls.Add(this.history22);
+            this.panel1.Controls.Add(this.history17);
+            this.panel1.Controls.Add(this.history16);
+            this.panel1.Controls.Add(this.history10);
+            this.panel1.Controls.Add(this.history18);
+            this.panel1.Controls.Add(this.history13);
+            this.panel1.Controls.Add(this.history12);
+            this.panel1.Controls.Add(this.history11);
+            this.panel1.Controls.Add(this.history14);
+            this.panel1.Controls.Add(this.history9);
+            this.panel1.Controls.Add(this.history8);
+            this.panel1.Controls.Add(this.history7);
+            this.panel1.Controls.Add(this.history6);
+            this.panel1.Controls.Add(this.history5);
+            this.panel1.Controls.Add(this.history1);
+            this.panel1.Controls.Add(this.history3);
+            this.panel1.Controls.Add(this.history4);
+            this.panel1.Controls.Add(this.history2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(960, 555);
+            this.panel1.TabIndex = 0;
+            // 
+            // history20
+            // 
+            this.history20.Location = new System.Drawing.Point(711, 370);
+            this.history20.Name = "history20";
+            this.history20.Size = new System.Drawing.Size(230, 86);
+            this.history20.TabIndex = 6;
+            // 
+            // history24
+            // 
+            this.history24.Location = new System.Drawing.Point(711, 462);
+            this.history24.Name = "history24";
+            this.history24.Size = new System.Drawing.Size(230, 86);
+            this.history24.TabIndex = 6;
+            // 
+            // history23
+            // 
+            this.history23.Location = new System.Drawing.Point(475, 462);
+            this.history23.Name = "history23";
+            this.history23.Size = new System.Drawing.Size(230, 86);
+            this.history23.TabIndex = 6;
+            // 
+            // history19
+            // 
+            this.history19.Location = new System.Drawing.Point(475, 371);
+            this.history19.Name = "history19";
+            this.history19.Size = new System.Drawing.Size(230, 86);
+            this.history19.TabIndex = 6;
+            // 
+            // history15
+            // 
+            this.history15.Location = new System.Drawing.Point(475, 279);
+            this.history15.Name = "history15";
+            this.history15.Size = new System.Drawing.Size(230, 86);
+            this.history15.TabIndex = 6;
+            // 
+            // history21
+            // 
+            this.history21.Location = new System.Drawing.Point(3, 462);
+            this.history21.Name = "history21";
+            this.history21.Size = new System.Drawing.Size(230, 87);
+            this.history21.TabIndex = 6;
+            // 
+            // history22
+            // 
+            this.history22.Location = new System.Drawing.Point(239, 463);
+            this.history22.Name = "history22";
+            this.history22.Size = new System.Drawing.Size(230, 86);
+            this.history22.TabIndex = 5;
+            // 
+            // history17
+            // 
+            this.history17.Location = new System.Drawing.Point(3, 370);
+            this.history17.Name = "history17";
+            this.history17.Size = new System.Drawing.Size(230, 86);
+            this.history17.TabIndex = 5;
+            // 
+            // history16
+            // 
+            this.history16.Location = new System.Drawing.Point(711, 279);
+            this.history16.Name = "history16";
+            this.history16.Size = new System.Drawing.Size(230, 86);
+            this.history16.TabIndex = 5;
+            // 
+            // history10
+            // 
+            this.history10.Location = new System.Drawing.Point(239, 187);
+            this.history10.Name = "history10";
+            this.history10.Size = new System.Drawing.Size(230, 86);
+            this.history10.TabIndex = 5;
+            // 
+            // history18
+            // 
+            this.history18.Location = new System.Drawing.Point(239, 370);
+            this.history18.Name = "history18";
+            this.history18.Size = new System.Drawing.Size(230, 86);
+            this.history18.TabIndex = 5;
+            // 
+            // history13
+            // 
+            this.history13.Controls.Add(this.panel18);
+            this.history13.Location = new System.Drawing.Point(3, 279);
+            this.history13.Name = "history13";
+            this.history13.Size = new System.Drawing.Size(230, 86);
+            this.history13.TabIndex = 5;
+            // 
+            // panel18
+            // 
+            this.panel18.Location = new System.Drawing.Point(0, 93);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(230, 87);
+            this.panel18.TabIndex = 5;
+            // 
+            // history12
+            // 
+            this.history12.Location = new System.Drawing.Point(711, 187);
+            this.history12.Name = "history12";
+            this.history12.Size = new System.Drawing.Size(230, 86);
+            this.history12.TabIndex = 5;
+            // 
+            // history11
+            // 
+            this.history11.Location = new System.Drawing.Point(475, 187);
+            this.history11.Name = "history11";
+            this.history11.Size = new System.Drawing.Size(230, 86);
+            this.history11.TabIndex = 5;
+            // 
+            // history14
+            // 
+            this.history14.Location = new System.Drawing.Point(239, 279);
+            this.history14.Name = "history14";
+            this.history14.Size = new System.Drawing.Size(230, 86);
+            this.history14.TabIndex = 5;
+            // 
+            // history9
+            // 
+            this.history9.Location = new System.Drawing.Point(3, 187);
+            this.history9.Name = "history9";
+            this.history9.Size = new System.Drawing.Size(230, 86);
+            this.history9.TabIndex = 5;
+            // 
+            // history8
+            // 
+            this.history8.Location = new System.Drawing.Point(711, 95);
+            this.history8.Name = "history8";
+            this.history8.Size = new System.Drawing.Size(230, 86);
+            this.history8.TabIndex = 5;
+            // 
+            // history7
+            // 
+            this.history7.Location = new System.Drawing.Point(475, 95);
+            this.history7.Name = "history7";
+            this.history7.Size = new System.Drawing.Size(230, 86);
+            this.history7.TabIndex = 5;
+            // 
+            // history6
+            // 
+            this.history6.Location = new System.Drawing.Point(239, 95);
+            this.history6.Name = "history6";
+            this.history6.Size = new System.Drawing.Size(230, 86);
+            this.history6.TabIndex = 5;
+            // 
+            // history5
+            // 
+            this.history5.Location = new System.Drawing.Point(3, 95);
+            this.history5.Name = "history5";
+            this.history5.Size = new System.Drawing.Size(230, 86);
+            this.history5.TabIndex = 5;
+            // 
+            // history1
+            // 
+            this.history1.Location = new System.Drawing.Point(3, 3);
+            this.history1.Name = "history1";
+            this.history1.Size = new System.Drawing.Size(230, 86);
+            this.history1.TabIndex = 4;
+            // 
+            // history3
+            // 
+            this.history3.Location = new System.Drawing.Point(475, 3);
+            this.history3.Name = "history3";
+            this.history3.Size = new System.Drawing.Size(230, 86);
+            this.history3.TabIndex = 4;
+            // 
+            // history4
+            // 
+            this.history4.Location = new System.Drawing.Point(711, 3);
+            this.history4.Name = "history4";
+            this.history4.Size = new System.Drawing.Size(230, 86);
+            this.history4.TabIndex = 4;
+            // 
+            // history2
+            // 
+            this.history2.Location = new System.Drawing.Point(239, 3);
+            this.history2.Name = "history2";
+            this.history2.Size = new System.Drawing.Size(230, 86);
+            this.history2.TabIndex = 3;
+            // 
+            // History
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
+            this.Name = "History";
+            this.Size = new System.Drawing.Size(960, 555);
+            this.panel1.ResumeLayout(false);
+            this.history13.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel history1;
+        private System.Windows.Forms.Panel history3;
+        private System.Windows.Forms.Panel history4;
+        private System.Windows.Forms.Panel history2;
+        private System.Windows.Forms.Panel history21;
+        private System.Windows.Forms.Panel history22;
+        private System.Windows.Forms.Panel history17;
+        private System.Windows.Forms.Panel history16;
+        private System.Windows.Forms.Panel history10;
+        private System.Windows.Forms.Panel history18;
+        private System.Windows.Forms.Panel history13;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Panel history12;
+        private System.Windows.Forms.Panel history11;
+        private System.Windows.Forms.Panel history14;
+        private System.Windows.Forms.Panel history9;
+        private System.Windows.Forms.Panel history8;
+        private System.Windows.Forms.Panel history7;
+        private System.Windows.Forms.Panel history6;
+        private System.Windows.Forms.Panel history5;
+        private System.Windows.Forms.Panel history20;
+        private System.Windows.Forms.Panel history24;
+        private System.Windows.Forms.Panel history23;
+        private System.Windows.Forms.Panel history19;
+        private System.Windows.Forms.Panel history15;
+    }
+}

@@ -1,0 +1,188 @@
+namespace temp_project.component
+{
+    partial class homebuy
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.buy3 = new System.Windows.Forms.Panel();
+            this.buy8 = new System.Windows.Forms.Panel();
+            this.buy7 = new System.Windows.Forms.Panel();
+            this.buy6 = new System.Windows.Forms.Panel();
+            this.buy9 = new System.Windows.Forms.Panel();
+            this.buy4 = new System.Windows.Forms.Panel();
+            this.buy5 = new System.Windows.Forms.Panel();
+            this.buy10 = new System.Windows.Forms.Panel();
+            this.buy2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buy1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.buy3);
+            this.panel1.Controls.Add(this.buy8);
+            this.panel1.Controls.Add(this.buy7);
+            this.panel1.Controls.Add(this.buy6);
+            this.panel1.Controls.Add(this.buy9);
+            this.panel1.Controls.Add(this.buy4);
+            this.panel1.Controls.Add(this.buy5);
+            this.panel1.Controls.Add(this.buy10);
+            this.panel1.Controls.Add(this.buy2);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.buy1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(953, 555);
+            this.panel1.TabIndex = 0;
+            // 
+            // buy3
+            // 
+            this.buy3.Location = new System.Drawing.Point(385, 64);
+            this.buy3.Name = "buy3";
+            this.buy3.Size = new System.Drawing.Size(185, 230);
+            this.buy3.TabIndex = 7;
+            // 
+            // buy8
+            // 
+            this.buy8.Location = new System.Drawing.Point(385, 300);
+            this.buy8.Name = "buy8";
+            this.buy8.Size = new System.Drawing.Size(185, 230);
+            this.buy8.TabIndex = 7;
+            // 
+            // buy7
+            // 
+            this.buy7.Location = new System.Drawing.Point(194, 300);
+            this.buy7.Name = "buy7";
+            this.buy7.Size = new System.Drawing.Size(185, 230);
+            this.buy7.TabIndex = 7;
+            // 
+            // buy6
+            // 
+            this.buy6.Location = new System.Drawing.Point(3, 300);
+            this.buy6.Name = "buy6";
+            this.buy6.Size = new System.Drawing.Size(185, 230);
+            this.buy6.TabIndex = 7;
+            // 
+            // buy9
+            // 
+            this.buy9.Location = new System.Drawing.Point(574, 300);
+            this.buy9.Name = "buy9";
+            this.buy9.Size = new System.Drawing.Size(185, 230);
+            this.buy9.TabIndex = 7;
+            // 
+            // buy4
+            // 
+            this.buy4.Location = new System.Drawing.Point(574, 64);
+            this.buy4.Name = "buy4";
+            this.buy4.Size = new System.Drawing.Size(185, 230);
+            this.buy4.TabIndex = 7;
+            // 
+            // buy5
+            // 
+            this.buy5.Location = new System.Drawing.Point(765, 64);
+            this.buy5.Name = "buy5";
+            this.buy5.Size = new System.Drawing.Size(185, 230);
+            this.buy5.TabIndex = 7;
+            // 
+            // buy10
+            // 
+            this.buy10.Location = new System.Drawing.Point(765, 300);
+            this.buy10.Name = "buy10";
+            this.buy10.Size = new System.Drawing.Size(185, 230);
+            this.buy10.TabIndex = 7;
+            // 
+            // buy2
+            // 
+            this.buy2.Location = new System.Drawing.Point(194, 64);
+            this.buy2.Name = "buy2";
+            this.buy2.Size = new System.Drawing.Size(185, 230);
+            this.buy2.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(354, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(241, 34);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "New Books";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buy1
+            // 
+            this.buy1.Location = new System.Drawing.Point(3, 64);
+            this.buy1.Name = "buy1";
+            this.buy1.Size = new System.Drawing.Size(185, 230);
+            this.buy1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::temp_project.Properties.Resources.book3;
+            this.pictureBox1.Location = new System.Drawing.Point(601, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(71, 58);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // homebuy
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
+            this.Name = "homebuy";
+            this.Size = new System.Drawing.Size(953, 555);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel buy1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel buy2;
+        private System.Windows.Forms.Panel buy3;
+        private System.Windows.Forms.Panel buy8;
+        private System.Windows.Forms.Panel buy7;
+        private System.Windows.Forms.Panel buy6;
+        private System.Windows.Forms.Panel buy9;
+        private System.Windows.Forms.Panel buy4;
+        private System.Windows.Forms.Panel buy5;
+        private System.Windows.Forms.Panel buy10;
+    }
+}

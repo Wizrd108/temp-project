@@ -1,0 +1,161 @@
+namespace temp_project.component
+{
+    partial class DownloadBuyBook
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.book_pic = new System.Windows.Forms.PictureBox();
+            this.detail_view = new System.Windows.Forms.PictureBox();
+            this.fav_btn = new System.Windows.Forms.PictureBox();
+            this.like_btn = new System.Windows.Forms.PictureBox();
+            this.dislike_btn = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.book_pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.detail_view)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fav_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.like_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dislike_btn)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.fav_btn);
+            this.panel1.Controls.Add(this.detail_view);
+            this.panel1.Controls.Add(this.book_pic);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(185, 230);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.dislike_btn);
+            this.panel2.Controls.Add(this.like_btn);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 157);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(185, 73);
+            this.panel2.TabIndex = 1;
+            // 
+            // book_pic
+            // 
+            this.book_pic.Image = global::temp_project.Properties.Resources.book;
+            this.book_pic.Location = new System.Drawing.Point(0, 0);
+            this.book_pic.Name = "book_pic";
+            this.book_pic.Size = new System.Drawing.Size(131, 156);
+            this.book_pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.book_pic.TabIndex = 9;
+            this.book_pic.TabStop = false;
+            // 
+            // detail_view
+            // 
+            this.detail_view.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.detail_view.Image = global::temp_project.Properties.Resources.detail_removebg_preview;
+            this.detail_view.Location = new System.Drawing.Point(137, 3);
+            this.detail_view.Name = "detail_view";
+            this.detail_view.Size = new System.Drawing.Size(45, 39);
+            this.detail_view.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.detail_view.TabIndex = 10;
+            this.detail_view.TabStop = false;
+            // 
+            // fav_btn
+            // 
+            this.fav_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fav_btn.Image = global::temp_project.Properties.Resources.fav_removebg_preview;
+            this.fav_btn.Location = new System.Drawing.Point(137, 48);
+            this.fav_btn.Name = "fav_btn";
+            this.fav_btn.Size = new System.Drawing.Size(42, 43);
+            this.fav_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fav_btn.TabIndex = 11;
+            this.fav_btn.TabStop = false;
+            // 
+            // like_btn
+            // 
+            this.like_btn.Image = global::temp_project.Properties.Resources.like_removebg_preview;
+            this.like_btn.Location = new System.Drawing.Point(3, 20);
+            this.like_btn.Name = "like_btn";
+            this.like_btn.Size = new System.Drawing.Size(40, 34);
+            this.like_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.like_btn.TabIndex = 12;
+            this.like_btn.TabStop = false;
+            // 
+            // dislike_btn
+            // 
+            this.dislike_btn.Image = global::temp_project.Properties.Resources.dislike_removebg_preview1;
+            this.dislike_btn.Location = new System.Drawing.Point(142, 20);
+            this.dislike_btn.Name = "dislike_btn";
+            this.dislike_btn.Size = new System.Drawing.Size(40, 34);
+            this.dislike_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dislike_btn.TabIndex = 13;
+            this.dislike_btn.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(49, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 34);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "DATE";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DownloadBuyBook
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "DownloadBuyBook";
+            this.Size = new System.Drawing.Size(185, 230);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.book_pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.detail_view)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fav_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.like_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dislike_btn)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox book_pic;
+        private System.Windows.Forms.PictureBox detail_view;
+        private System.Windows.Forms.PictureBox fav_btn;
+        private System.Windows.Forms.PictureBox like_btn;
+        private System.Windows.Forms.PictureBox dislike_btn;
+        private System.Windows.Forms.Label label1;
+    }
+}
