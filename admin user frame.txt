@@ -1,0 +1,303 @@
+namespace temp_project.after_log
+{
+    partial class AdminDesign
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.ad_header = new System.Windows.Forms.Panel();
+            this.ad_nav_pnl = new System.Windows.Forms.Panel();
+            this.ad_name = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.ad_setting = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.ad_track_btn = new System.Windows.Forms.Label();
+            this.ad_chat_btn = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ad_store_btn = new System.Windows.Forms.Label();
+            this.ad_main_body = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.ad_logout_btn = new System.Windows.Forms.Label();
+            this.ad_header.SuspendLayout();
+            this.ad_nav_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // ad_header
+            // 
+            this.ad_header.BackColor = System.Drawing.Color.Turquoise;
+            this.ad_header.Controls.Add(this.pictureBox9);
+            this.ad_header.Controls.Add(this.pictureBox8);
+            this.ad_header.Controls.Add(this.pictureBox7);
+            this.ad_header.Controls.Add(this.pictureBox6);
+            this.ad_header.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ad_header.Location = new System.Drawing.Point(0, 0);
+            this.ad_header.Name = "ad_header";
+            this.ad_header.Size = new System.Drawing.Size(1092, 78);
+            this.ad_header.TabIndex = 0;
+            // 
+            // ad_nav_pnl
+            // 
+            this.ad_nav_pnl.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.ad_nav_pnl.Controls.Add(this.ad_logout_btn);
+            this.ad_nav_pnl.Controls.Add(this.ad_name);
+            this.ad_nav_pnl.Controls.Add(this.label1);
+            this.ad_nav_pnl.Controls.Add(this.pictureBox5);
+            this.ad_nav_pnl.Controls.Add(this.ad_setting);
+            this.ad_nav_pnl.Controls.Add(this.pictureBox4);
+            this.ad_nav_pnl.Controls.Add(this.ad_track_btn);
+            this.ad_nav_pnl.Controls.Add(this.ad_chat_btn);
+            this.ad_nav_pnl.Controls.Add(this.pictureBox3);
+            this.ad_nav_pnl.Controls.Add(this.pictureBox2);
+            this.ad_nav_pnl.Controls.Add(this.pictureBox1);
+            this.ad_nav_pnl.Controls.Add(this.ad_store_btn);
+            this.ad_nav_pnl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ad_nav_pnl.Location = new System.Drawing.Point(0, 78);
+            this.ad_nav_pnl.Name = "ad_nav_pnl";
+            this.ad_nav_pnl.Size = new System.Drawing.Size(132, 555);
+            this.ad_nav_pnl.TabIndex = 1;
+            // 
+            // ad_name
+            // 
+            this.ad_name.Font = new System.Drawing.Font("Microsoft Himalaya", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ad_name.Location = new System.Drawing.Point(3, 101);
+            this.ad_name.Name = "ad_name";
+            this.ad_name.Size = new System.Drawing.Size(123, 24);
+            this.ad_name.TabIndex = 10;
+            this.ad_name.Text = "ADMIN-NAME";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Himalaya", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 131);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 24);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "U-id";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(10, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(115, 98);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
+            // 
+            // ad_setting
+            // 
+            this.ad_setting.Font = new System.Drawing.Font("Microsoft Himalaya", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ad_setting.Location = new System.Drawing.Point(49, 411);
+            this.ad_setting.Name = "ad_setting";
+            this.ad_setting.Size = new System.Drawing.Size(80, 24);
+            this.ad_setting.TabIndex = 7;
+            this.ad_setting.Text = "Settings";
+            this.ad_setting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(3, 411);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            // 
+            // ad_track_btn
+            // 
+            this.ad_track_btn.Font = new System.Drawing.Font("Microsoft Himalaya", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ad_track_btn.Location = new System.Drawing.Point(49, 341);
+            this.ad_track_btn.Name = "ad_track_btn";
+            this.ad_track_btn.Size = new System.Drawing.Size(75, 24);
+            this.ad_track_btn.TabIndex = 5;
+            this.ad_track_btn.Text = "Track";
+            this.ad_track_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ad_chat_btn
+            // 
+            this.ad_chat_btn.Font = new System.Drawing.Font("Microsoft Himalaya", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ad_chat_btn.Location = new System.Drawing.Point(49, 265);
+            this.ad_chat_btn.Name = "ad_chat_btn";
+            this.ad_chat_btn.Size = new System.Drawing.Size(75, 24);
+            this.ad_chat_btn.TabIndex = 4;
+            this.ad_chat_btn.Text = "Chat";
+            this.ad_chat_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(3, 265);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(3, 341);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(3, 196);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // ad_store_btn
+            // 
+            this.ad_store_btn.Font = new System.Drawing.Font("Microsoft Himalaya", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ad_store_btn.Location = new System.Drawing.Point(49, 196);
+            this.ad_store_btn.Name = "ad_store_btn";
+            this.ad_store_btn.Size = new System.Drawing.Size(75, 24);
+            this.ad_store_btn.TabIndex = 0;
+            this.ad_store_btn.Text = "Store";
+            this.ad_store_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ad_main_body
+            // 
+            this.ad_main_body.BackColor = System.Drawing.Color.White;
+            this.ad_main_body.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ad_main_body.Location = new System.Drawing.Point(132, 78);
+            this.ad_main_body.Name = "ad_main_body";
+            this.ad_main_body.Size = new System.Drawing.Size(960, 555);
+            this.ad_main_body.TabIndex = 2;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(317, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(507, 78);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(1045, 22);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(35, 36);
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(982, 22);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(35, 36);
+            this.pictureBox8.TabIndex = 2;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(92, 46);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
+            // ad_logout_btn
+            // 
+            this.ad_logout_btn.BackColor = System.Drawing.Color.Red;
+            this.ad_logout_btn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ad_logout_btn.ForeColor = System.Drawing.Color.White;
+            this.ad_logout_btn.Location = new System.Drawing.Point(34, 473);
+            this.ad_logout_btn.Name = "ad_logout_btn";
+            this.ad_logout_btn.Size = new System.Drawing.Size(70, 26);
+            this.ad_logout_btn.TabIndex = 11;
+            this.ad_logout_btn.Text = "Log Out";
+            this.ad_logout_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AdminDesign
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1092, 633);
+            this.Controls.Add(this.ad_main_body);
+            this.Controls.Add(this.ad_nav_pnl);
+            this.Controls.Add(this.ad_header);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "AdminDesign";
+            this.Text = "AdminDesign";
+            this.ad_header.ResumeLayout(false);
+            this.ad_nav_pnl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel ad_header;
+        private System.Windows.Forms.Panel ad_nav_pnl;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label ad_store_btn;
+        private System.Windows.Forms.Panel ad_main_body;
+        private System.Windows.Forms.Label ad_setting;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label ad_track_btn;
+        private System.Windows.Forms.Label ad_chat_btn;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label ad_name;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label ad_logout_btn;
+    }
+}
